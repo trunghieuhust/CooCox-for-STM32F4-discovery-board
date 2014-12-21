@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\CoOS\semihosting /I..\..\..\workspace\CoOS\CoOS\portable /I..\..\..\workspace\CoOS\cmsis /I..\..\..\workspace /I..\..\..\workspace\CoOS /I..\..\..\workspace\CoOS\cmsis_boot /I..\..\..\workspace\CoOS\CoOS\kernel /I..\..\..\workspace\CoOS\CoOS">
+      <source file="..\..\kernel\kernelHeap.c" lastModified="14a6838f300">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\kernel\OsTask.h" lastModified="14a6838f309">
+      </source>
+      <source file="..\..\kernel\event.c" lastModified="14a6838f2fe">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\kernel\OsServiceReq.h" lastModified="14a6838f308">
+      </source>
+      <source file="..\..\kernel\OsTime.h" lastModified="14a6838f30a">
+      </source>
+      <source file="..\..\kernel\OsTimer.h" lastModified="14a6838f30a">
+      </source>
+      <source file="..\..\kernel\core.c" lastModified="14a6838f2fd">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\portable\arch.c" lastModified="14a6838f312">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\kernel\queue.c" lastModified="14a6838f30b">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\kernel\sem.c" lastModified="14a6838f30c">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\kernel\OsMM.h" lastModified="14a6838f306">
+      </source>
+      <source file="..\..\kernel\CoOS.h" lastModified="14a6838f2fc">
+         <include file="..\..\OsConfig.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="14a6aea0db0">
+      </source>
+      <source file="..\..\kernel\flag.c" lastModified="14a6838f2fe">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="14a6aea0daf">
+      </source>
+      <source file="..\..\..\semihosting\sh_cmd.s" lastModified="14a6adf4e2c">
+      </source>
+      <source file="..\..\kernel\mutex.c" lastModified="14a6838f302">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\kernel\OsKernelHeap.h" lastModified="14a6838f305">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="14a6aea09b8">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\portable\OsArch.h" lastModified="14a6838f313">
+      </source>
+      <source file="..\..\kernel\mbox.c" lastModified="14a6838f301">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\OsConfig.h" lastModified="14a6838f311">
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="14a6c19e3a4">
+      </source>
+      <source file="..\..\kernel\task.c" lastModified="14a6838f30d">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\kernel\OsEvent.h" lastModified="14a6838f304">
+      </source>
+      <source file="..\..\kernel\OsError.h" lastModified="14a6838f303">
+      </source>
+      <source file="..\..\kernel\time.c" lastModified="14a6838f30e">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="14a6aea6779">
+      </source>
+      <source file="..\..\kernel\utility.c" lastModified="14a6838f30f">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="14a6aea0db1">
+      </source>
+      <source file="..\..\..\main.c" lastModified="14a6c2bc53c">
+         <include file="..\..\..\semihosting\semihosting.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\kernel\CoOS.h"/>
+      </source>
+      <source file="..\..\kernel\OsQueue.h" lastModified="14a6838f308">
+      </source>
+      <source file="..\..\..\semihosting\semihosting.h" lastModified="14a6adf4e2b">
+      </source>
+      <source file="..\..\kernel\OsMutex.h" lastModified="14a6838f306">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\kernel\serviceReq.c" lastModified="14a6838f30c">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\kernel\timer.c" lastModified="14a6838f30f">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\kernel\OsCore.h" lastModified="14a6838f303">
+         <include file="..\..\kernel\CoOS.h"/>
+      </source>
+      <source file="..\..\..\semihosting\semihosting.c" lastModified="14a6adf55fa">
+         <include file="..\..\..\semihosting\semihosting.h"/>
+      </source>
+      <source file="..\..\kernel\hook.c" lastModified="14a6838f2ff">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\kernel\mm.c" lastModified="14a6838f302">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\portable\GCC\port.c" lastModified="14a6838f312">
+         <include file="..\..\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="14a6aea09c6">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\kernel\coocox.h" lastModified="14a6838f2fb">
+         <include file="..\..\kernel\CoOS.h"/>
+         <include file="..\..\portable\OsArch.h"/>
+         <include file="..\..\kernel\OsCore.h"/>
+         <include file="..\..\kernel\OsTask.h"/>
+         <include file="..\..\kernel\OsServiceReq.h"/>
+         <include file="..\..\kernel\OsError.h"/>
+         <include file="..\..\kernel\OsTime.h"/>
+         <include file="..\..\kernel\OsTimer.h"/>
+         <include file="..\..\kernel\OsKernelHeap.h"/>
+         <include file="..\..\kernel\OsMM.h"/>
+         <include file="..\..\kernel\OsEvent.h"/>
+         <include file="..\..\kernel\OsMutex.h"/>
+         <include file="..\..\kernel\OsQueue.h"/>
+         <include file="..\..\kernel\OsFlag.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="14a6aea05d3">
+      </source>
+      <source file="..\..\kernel\OsFlag.h" lastModified="14a6838f305">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14a6aea05cc">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14a6aea05d2">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+</dependencies>
